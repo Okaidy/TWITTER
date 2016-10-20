@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Twitter</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/utilities.css">
+	<link rel="stylesheet" href="font/css/font-awesome.min.css">
+	<link rel="stylesheet" href="font/css/font-awesome.css">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+</head>
+<body>
+	<header class="verde"><!--Cabecera-->
+		<div class="container">
+			<div class="row"><!--Renglon para titulo-->
+				<div class="col-xs-12" ><!--Columnas par texto-->
+					<h1 class="text-center gris">Do It Now</h1>
+				</div><!--Fin de columnas-->
+			</div><!--Fin de renglon-->
+		</div><!--Fin de container-->
+	</header><!--Fin de cabecera-->
+	<section class="fondo pdt-4">
+		<div class="container">
+			<div class="row"><!--Renglon para agregar tareas-->
+				<div class="col-xs-12"><!--Columna para agregar tareas-->
+					<textarea id="texto" class="form-control texto" rows="3" placeholder="Ingrese una nueva tarea"></textarea>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 text-right">
+					<button class="boton mgt-4 fa fa-plus verde gris" id="agregar"><b class="gris"> Agregar</b></button>
+				</div><!--fin de columans-->
+			</div><!--fin de renglo de tareas-->
+		</div>
+	</section>
+	<section class="pre-scrollable fondo pdt-4" id="scroll"><!--Seccion de tareas agregadas-->
+		<div class="container">
+			<ul id="lista">
+				<li style="background:white"><input type="checkbox">hola<span class="fa fa-trash basura fa-lg"></span></li>
+			</ul>
+		</div><!--Fin de container  -->
+	</section><!--Fin de seccion de tareas-->
+	
+
+	<script src="js/main.js"></script>
+</body>
+</html>
+
+<!--  -->
