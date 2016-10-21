@@ -1,35 +1,55 @@
+@media (min-width: 700px) and (max-width: 960px ) {
+	button.boton {
+		padding: 2%;
+	}
+}
+@media (min-width: 961px) and (max-width: 1200px ) {
+	button.boton {
+		padding: 1%;
+	}
+}
+
+/*color de letra y tipografia de toda la pagina*/
 *{
 	color: #3f3844;
 	font-family: 'Indie Flower';
 }
+/*medidas para el area con scroll*/
 #scroll {
 	max-height: 100%;
 	min-width: 100%;
 	min-height: 435px;
 	max-height: 435px;
 }
+/*fondo de color gris*/
 .fondo {
  	background-color: #EAECEE;
  }
+ /*fondo color verde*/
 .verde {
 	background-color: #36897b;
 }
+/*clase para l boton*/
 .boton {
 	border-radius: 5px;
 	border: none;
 	padding: 4%;
 
 }
+/*color gris para algunos texto*/
 .gris {
 	color: #EAECEE;
 }
+/*estilo para cada item de la listas*/
 li {
 	list-style: none;
 	font-weight: bold;
 	margin:5px 0px;
 	padding: 2%;
 	position: relative;
+	font-size: 16px;
 }
+/*estilo para el icono de trash*/
 .basura{
 	height: 100%;
 	color: #dc4b24;
@@ -40,4 +60,11 @@ li {
 
 .basura:hover{
 	color: red;
+}
+label {
+	margin-left: 3%;
+}
+.tachado {
+	text-decoration: line-through;
+	color: #dc4b24;
 }
